@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ********** Custom Properties ********** */
+:root {
+--white-alpha-color: rgba(255, 255, 255, 0.5);
+--white-color: #fff;
+}
+
+.tarjetas{ 
+    display: flex;
+    justify-items: center;
+    background: var(--white-alpha-color);
+}
+
+
+.tarjeta {
+width:100%;
+margin: 30px 30px 30px 30px;
+background: var(--white-color);
+padding: 25px;
+text-align: center;
+}
+
+.tarjeta img {
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    margin:0;
+    padding: 0;
+   }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Inmobiliaria Las Tapias</title>
+</head>
+
+<body>
+  <header class="titulares header">
+    <div class="logo">
+        <a href="index.html">Inmobiliaria <br> Las Tapias</a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Ventas.html">Ventas</a></li>
+        <li><a href="Alquiler.html">Alquileres</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <section> 
+    <section class="flex-container">
+      <article class="flex-item">
+        <h2>Envienos un mensaje</h2>
+        <form action="https://formspree.io/f/xqakpnjz" method="POST" class="contact-form box-shadow-1">
+            <input type="text" name="name" placeholder="Ingresa tu nombre *"
+              title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            <textarea name="message" cols="50" rows="10" placeholder="Déjame tus comentarios *" required></textarea>
+            <input class="btn" type="submit" value="ENVIAR MENSAJE">
+          </form>
+      </article>
+      <article>
+        <h5>Encuentrenos en: Bartolome Mitre 555, Las Tapias</h5>
+        <iframe class="contact-form" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27080.285039149243!2d-65.11464274731632!3d-31.959930086968985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2d540e08e3d63%3A0x7bddcd863469aeba!2sLas%20Tapias%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1731462455060!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </article>
+    </section> 
+  </section> 
+  </main>
+  <footer class="footer">
+    <small>Sitio Diseñado por Mariana Tapia</small>
+  </footer>
+</body>
+
+</html>

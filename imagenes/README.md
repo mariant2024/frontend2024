@@ -1,0 +1,1 @@
+La pagina web es de una inmobiliaria que vende y alquila propiedades
